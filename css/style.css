@@ -851,7 +851,7 @@ body.lock {
   font-size: 43px;
   color: white;
   font-weight: bold;
-  line-height: 0.85;
+  line-height: 1;
   text-indent: 25px;
   text-shadow: 1px 1.732px 5px #00aaff;
 }
@@ -863,13 +863,13 @@ body.lock {
 }
 
 .top-page__title {
+  margin-top: -25px;
   font-size: 190px;
   font-family: "BebasRegular";
   font-weight: 600;
   letter-spacing: 7px;
   text-transform: uppercase;
-  line-height: 0.75;
-  vertical-align: top;
+  line-height: 1;
   text-shadow: 1px 1.732px 5px rgba(129, 124, 121, 0.25);
   background: -webkit-gradient(linear, left bottom, left top, from(#700000), color-stop(50%, #cb0000), color-stop(50%, #ec2f2f), to(#ff6363));
   background: linear-gradient(to top, #700000, #cb0000 50%, #ec2f2f 50%, #ff6363);
